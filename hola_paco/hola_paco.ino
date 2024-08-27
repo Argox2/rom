@@ -74,18 +74,18 @@ void frontLeftWheel(int speed) {
 // Si velocidad cero, frena. 
 // Si velocidad negativa gira hacia atras.
 
-void frontRightWheel(int speed) {
+void backRightWheel(int speed) {
     if (speed >= 0) {
-      digitalWrite(FR_ENA_ATRAS, HIGH);
-      digitalWrite(FR_ENA_ADELANTE, HIGH);
-      analogWrite(FR_PWM_ATRAS, 0);
-      analogWrite(FR_PWM_ADELANTE, speed);
+      digitalWrite(BR_ENA_ATRAS, HIGH);
+      digitalWrite(BR_ENA_ADELANTE, HIGH);
+      analogWrite(BR_PWM_ATRAS, 0);
+      analogWrite(BR_PWM_ADELANTE, speed);
     }
     else {
-      digitalWrite(FR_ENA_ATRAS, HIGH);
-      digitalWrite(FR_ENA_ADELANTE, HIGH);
-      analogWrite(FR_PWM_ATRAS, speed);
-      analogWrite(FR_PWM_ADELANTE, 0);
+      digitalWrite(BR_ENA_ATRAS, HIGH);
+      digitalWrite(BR_ENA_ADELANTE, HIGH);
+      analogWrite(BR_PWM_ATRAS, speed);
+      analogWrite(BR_PWM_ADELANTE, 0);
       }
   }
 
@@ -93,30 +93,41 @@ void frontRightWheel(int speed) {
 // Si velocidad cero, frena. 
 // Si velocidad negativa gira hacia atras.
 
-void frontRightWheel(int speed) {
+void backLeftWheel(int speed) {
     if (speed >= 0) {
-      digitalWrite(FR_ENA_ATRAS, HIGH);
-      digitalWrite(FR_ENA_ADELANTE, HIGH);
-      analogWrite(FR_PWM_ATRAS, 0);
-      analogWrite(FR_PWM_ADELANTE, speed);
+      digitalWrite(BL_ENA_ATRAS, HIGH);
+      digitalWrite(BL_ENA_ADELANTE, HIGH);
+      analogWrite(BL_PWM_ATRAS, speed);
+      analogWrite(BL_PWM_ADELANTE, 0);
     }
     else {
-      digitalWrite(FR_ENA_ATRAS, HIGH);
-      digitalWrite(FR_ENA_ADELANTE, HIGH);
-      analogWrite(FR_PWM_ATRAS, speed);
-      analogWrite(FR_PWM_ADELANTE, 0);
+      digitalWrite(BL_ENA_ATRAS, HIGH);
+      digitalWrite(BL_ENA_ADELANTE, HIGH);
+      analogWrite(BL_PWM_ATRAS, 0);
+      analogWrite(BL_PWM_ADELANTE, speed);
       }
   }
 
 void goCar() {
     frontRightWheel(80);
     frontLeftWheel(80);
-  }
+    backRightWheel(80);
+    backLeftWheel(80);
+}
 
 void stopCar() {
     frontRightWheel(0);
     frontLeftWheel(0);
-  }
+    backRightWheel(0);
+    backLeftWheel(0);
+}
+
+void goCar() {
+    frontRightWheel(-80);
+    frontLeftWheel(-80);
+    backRightWheel(-80);
+    backLeftWheel(-80);
+}
 
 void initWheels() {
   pinMode(FR_ENA_ATRAS, OUTPUT);
