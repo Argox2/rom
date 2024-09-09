@@ -1,0 +1,40 @@
+[2.309s] Invoking command in '/home/alessandro/Workspace/rom/ws1/src/viz_package': PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ PYTHONPATH=/home/alessandro/Workspace/rom/ws1/src/viz_package/build/viz_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alessandro/Workspace/rom/ws1/src/viz_package/install/viz_package/lib/python3.11/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/viz_package build --build-base /home/alessandro/Workspace/rom/ws1/src/viz_package/build/viz_package/build install --record /home/alessandro/Workspace/rom/ws1/src/viz_package/build/viz_package/install.log --single-version-externally-managed install_data
+[3.092s] running egg_info
+[3.093s] creating build/viz_package/viz_package.egg-info
+[3.127s] writing build/viz_package/viz_package.egg-info/PKG-INFO
+[3.127s] writing dependency_links to build/viz_package/viz_package.egg-info/dependency_links.txt
+[3.128s] writing entry points to build/viz_package/viz_package.egg-info/entry_points.txt
+[3.128s] writing requirements to build/viz_package/viz_package.egg-info/requires.txt
+[3.128s] writing top-level names to build/viz_package/viz_package.egg-info/top_level.txt
+[3.128s] writing manifest file 'build/viz_package/viz_package.egg-info/SOURCES.txt'
+[3.196s] reading manifest file 'build/viz_package/viz_package.egg-info/SOURCES.txt'
+[3.197s] adding license file 'LICENSE'
+[3.197s] writing manifest file 'build/viz_package/viz_package.egg-info/SOURCES.txt'
+[3.198s] running build
+[3.198s] running build_py
+[3.198s] creating /home/alessandro/Workspace/rom/ws1/src/viz_package/build/viz_package/build
+[3.198s] creating /home/alessandro/Workspace/rom/ws1/src/viz_package/build/viz_package/build/lib
+[3.198s] creating /home/alessandro/Workspace/rom/ws1/src/viz_package/build/viz_package/build/lib/viz_package
+[3.198s] copying viz_package/__init__.py -> /home/alessandro/Workspace/rom/ws1/src/viz_package/build/viz_package/build/lib/viz_package
+[3.198s] copying viz_package/viz_node.py -> /home/alessandro/Workspace/rom/ws1/src/viz_package/build/viz_package/build/lib/viz_package
+[3.199s] running install
+[3.208s] running install_lib
+[3.241s] creating /home/alessandro/Workspace/rom/ws1/src/viz_package/install/viz_package/lib/python3.11/site-packages/viz_package
+[3.241s] copying /home/alessandro/Workspace/rom/ws1/src/viz_package/build/viz_package/build/lib/viz_package/__init__.py -> /home/alessandro/Workspace/rom/ws1/src/viz_package/install/viz_package/lib/python3.11/site-packages/viz_package
+[3.242s] copying /home/alessandro/Workspace/rom/ws1/src/viz_package/build/viz_package/build/lib/viz_package/viz_node.py -> /home/alessandro/Workspace/rom/ws1/src/viz_package/install/viz_package/lib/python3.11/site-packages/viz_package
+[3.244s] byte-compiling /home/alessandro/Workspace/rom/ws1/src/viz_package/install/viz_package/lib/python3.11/site-packages/viz_package/__init__.py to __init__.cpython-311.pyc
+[3.244s] byte-compiling /home/alessandro/Workspace/rom/ws1/src/viz_package/install/viz_package/lib/python3.11/site-packages/viz_package/viz_node.py to viz_node.cpython-311.pyc
+[3.244s] running install_data
+[3.245s] creating /home/alessandro/Workspace/rom/ws1/src/viz_package/install/viz_package/share/ament_index
+[3.245s] creating /home/alessandro/Workspace/rom/ws1/src/viz_package/install/viz_package/share/ament_index/resource_index
+[3.245s] creating /home/alessandro/Workspace/rom/ws1/src/viz_package/install/viz_package/share/ament_index/resource_index/packages
+[3.245s] copying resource/viz_package -> /home/alessandro/Workspace/rom/ws1/src/viz_package/install/viz_package/share/ament_index/resource_index/packages
+[3.245s] copying package.xml -> /home/alessandro/Workspace/rom/ws1/src/viz_package/install/viz_package/share/viz_package
+[3.246s] creating /home/alessandro/Workspace/rom/ws1/src/viz_package/install/viz_package/share/viz_package/launch
+[3.246s] copying launch/viz_launch.py -> /home/alessandro/Workspace/rom/ws1/src/viz_package/install/viz_package/share/viz_package/launch
+[3.246s] running install_egg_info
+[3.283s] Copying build/viz_package/viz_package.egg-info to /home/alessandro/Workspace/rom/ws1/src/viz_package/install/viz_package/lib/python3.11/site-packages/viz_package-0.0.0-py3.11.egg-info
+[3.284s] running install_scripts
+[3.421s] Installing viz_node script to /home/alessandro/Workspace/rom/ws1/src/viz_package/install/viz_package/lib/viz_package
+[3.421s] writing list of installed files to '/home/alessandro/Workspace/rom/ws1/src/viz_package/build/viz_package/install.log'
+[3.510s] Invoked command in '/home/alessandro/Workspace/rom/ws1/src/viz_package' returned '0': PS1=\u@\h \[\033[32m\]\w\[\033[33m\]$(parse_git_branch)\[\033[00m\] $ PYTHONPATH=/home/alessandro/Workspace/rom/ws1/src/viz_package/build/viz_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alessandro/Workspace/rom/ws1/src/viz_package/install/viz_package/lib/python3.11/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/viz_package build --build-base /home/alessandro/Workspace/rom/ws1/src/viz_package/build/viz_package/build install --record /home/alessandro/Workspace/rom/ws1/src/viz_package/build/viz_package/install.log --single-version-externally-managed install_data

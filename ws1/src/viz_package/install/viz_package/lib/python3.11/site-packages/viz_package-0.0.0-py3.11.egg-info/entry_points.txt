@@ -1,0 +1,2 @@
+[console_scripts]
+viz_node = viz_package.viz_node:main

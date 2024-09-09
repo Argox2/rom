@@ -1,0 +1,38 @@
+running egg_info
+creating build/viz_package/viz_package.egg-info
+writing build/viz_package/viz_package.egg-info/PKG-INFO
+writing dependency_links to build/viz_package/viz_package.egg-info/dependency_links.txt
+writing entry points to build/viz_package/viz_package.egg-info/entry_points.txt
+writing requirements to build/viz_package/viz_package.egg-info/requires.txt
+writing top-level names to build/viz_package/viz_package.egg-info/top_level.txt
+writing manifest file 'build/viz_package/viz_package.egg-info/SOURCES.txt'
+reading manifest file 'build/viz_package/viz_package.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file 'build/viz_package/viz_package.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/alessandro/Workspace/rom/ws1/src/viz_package/build/viz_package/build
+creating /home/alessandro/Workspace/rom/ws1/src/viz_package/build/viz_package/build/lib
+creating /home/alessandro/Workspace/rom/ws1/src/viz_package/build/viz_package/build/lib/viz_package
+copying viz_package/__init__.py -> /home/alessandro/Workspace/rom/ws1/src/viz_package/build/viz_package/build/lib/viz_package
+copying viz_package/viz_node.py -> /home/alessandro/Workspace/rom/ws1/src/viz_package/build/viz_package/build/lib/viz_package
+running install
+running install_lib
+creating /home/alessandro/Workspace/rom/ws1/src/viz_package/install/viz_package/lib/python3.11/site-packages/viz_package
+copying /home/alessandro/Workspace/rom/ws1/src/viz_package/build/viz_package/build/lib/viz_package/__init__.py -> /home/alessandro/Workspace/rom/ws1/src/viz_package/install/viz_package/lib/python3.11/site-packages/viz_package
+copying /home/alessandro/Workspace/rom/ws1/src/viz_package/build/viz_package/build/lib/viz_package/viz_node.py -> /home/alessandro/Workspace/rom/ws1/src/viz_package/install/viz_package/lib/python3.11/site-packages/viz_package
+byte-compiling /home/alessandro/Workspace/rom/ws1/src/viz_package/install/viz_package/lib/python3.11/site-packages/viz_package/__init__.py to __init__.cpython-311.pyc
+byte-compiling /home/alessandro/Workspace/rom/ws1/src/viz_package/install/viz_package/lib/python3.11/site-packages/viz_package/viz_node.py to viz_node.cpython-311.pyc
+running install_data
+creating /home/alessandro/Workspace/rom/ws1/src/viz_package/install/viz_package/share/ament_index
+creating /home/alessandro/Workspace/rom/ws1/src/viz_package/install/viz_package/share/ament_index/resource_index
+creating /home/alessandro/Workspace/rom/ws1/src/viz_package/install/viz_package/share/ament_index/resource_index/packages
+copying resource/viz_package -> /home/alessandro/Workspace/rom/ws1/src/viz_package/install/viz_package/share/ament_index/resource_index/packages
+copying package.xml -> /home/alessandro/Workspace/rom/ws1/src/viz_package/install/viz_package/share/viz_package
+creating /home/alessandro/Workspace/rom/ws1/src/viz_package/install/viz_package/share/viz_package/launch
+copying launch/viz_launch.py -> /home/alessandro/Workspace/rom/ws1/src/viz_package/install/viz_package/share/viz_package/launch
+running install_egg_info
+Copying build/viz_package/viz_package.egg-info to /home/alessandro/Workspace/rom/ws1/src/viz_package/install/viz_package/lib/python3.11/site-packages/viz_package-0.0.0-py3.11.egg-info
+running install_scripts
+Installing viz_node script to /home/alessandro/Workspace/rom/ws1/src/viz_package/install/viz_package/lib/viz_package
+writing list of installed files to '/home/alessandro/Workspace/rom/ws1/src/viz_package/build/viz_package/install.log'
